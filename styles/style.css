@@ -1,8 +1,53 @@
+/* For making the navigation bar flush to the page */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 p {
     font-size: 18px;
     font-family: "Arial";
 }
 
 body {
-    background-color: rgb(235, 183, 115);
+    background-color: white;
+/*     background-image: url("../images/Version_4.5_Title_Screen.webp");
+    background-repeat: no-repeat;
+    background-size: auto; */
+}
+
+/* Navigation bar's bg color */
+.navbar {
+    background-color: palevioletred;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: "Fresca", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: white;
+    color: palevioletred;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: rebeccapurple;
+    color: white;
+  }
+
+.section1 {
+    background-color: #ddd;
 }
