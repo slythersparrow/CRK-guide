@@ -1,0 +1,27 @@
+/* Style for search bar div */
+.cookie-search {
+    background-color: blanchedalmond;
+    width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+} 
+
+    /* Style for search bar */
+    #cookieSearch {
+        width: 250px;
+        font-size: 16px;
+        font-family: "Capriola", sans-serif;
+        padding: 11px;
+        border: 1px solid #ddd;
+    }
+
+.cookie-profile {
+    background-color: lavender;
+    width: 750px;
+    margin: auto;
+    /* margin-top: 20px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+} 

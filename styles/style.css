@@ -7,15 +7,17 @@
 
 p {
     font-size: 18px;
-    font-family: "Arial";
+    font-family: "Capriola";
 }
 
+/* Background star jellies */
 body {
-    background-color: white;
-/*     background-image: url("../images/Version_4.5_Title_Screen.webp");
-    background-repeat: no-repeat;
-    background-size: auto; */
-}
+    background-color: whitesmoke;
+    /* background-image: url("../images/background/star_jelly.webp");
+    
+    background-size: 100px; 
+    background-repeat: repeat;  */
+  }
 
 /* Navigation bar's bg color */
 .navbar {
@@ -48,6 +50,66 @@ body {
     color: white;
   }
 
-.section1 {
-    background-color: #ddd;
-}
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: "Fresca", sans-serif;
+    font-weight: bold;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /*Dropdown button when link below is active*/
+  .dropdown .dropbtnActive {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: rebeccapurple;
+    font-family: "Fresca", sans-serif;
+    font-weight: bold;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(219, 139, 166);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Style links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Change the color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: white;
+    color: palevioletred;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+

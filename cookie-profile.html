@@ -8,6 +8,7 @@
     <!-- STYLE STUFF -->
     <!-- Get CSS style from file -->
     <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/cookie-profile-style.css" rel="stylesheet" />
     <!-- Importing fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,21 +25,27 @@
     <!-- Navigation bar -->
     <div class="navbar">
       <a href="index.html">Home</a>
-      <a class="active" href="tier-lists.html">Tier lists</a>
+      <a href="tier-lists.html">Tier lists</a>
       <div class="dropdown">
-        <button class="dropbtn">Cookies
+        <button class="dropbtnActive">Cookies
             <i class="fa-solid fa-caret-down fa-sm"></i>
         </button>
         <div class="dropdown-content">
           <a href="#">Filter table</a>
-          <a href="cookie-profile.html">Cookie profiles</a>
+          <a class="active" href="cookie-profile.html">Cookie profiles</a>
         </div>
       </div>
       <a href="#about">Enemies</a>
     </div>
     
-    <div class="section1">
+    <!-- Search bar placeholder -->
+    <div class="cookie-search">
+        <input type="text" id="cookieSearch" onkeyup="cookieSearchFunction()" placeholder="Search">
+    </div>
+    <!-- Cookie profile -->
+    <div class="cookie-profile">
       <p>for visualizing div section1 on tier lists page</p>
     </div>
+
   </body>
 </html>
