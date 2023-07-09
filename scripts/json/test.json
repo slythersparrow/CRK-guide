@@ -1,5 +1,5 @@
-[
-  {
+{
+  "cookie_frostq": {
     "cookieID": "cookie0530",
     "cookieName": "Frost Queen Cookie",
     "rarity": "legendary",
@@ -18,7 +18,7 @@
     "enchant3": "",
     "summons": "FALSE"
   },
-  {
+  "cookie_rye": {
     "cookieID": "cookie0515",
     "cookieName": "Rye Cookie",
     "rarity": "epic",
@@ -37,7 +37,7 @@
     "enchant3": "All allies' ATK SPD: +25.0% for 7.0 sec",
     "summons": "FALSE"
   },
-  {
+  "cookie_crunchy": {
     "cookieID": "cookie0537",
     "cookieName": "Crunchy Chip Cookie",
     "rarity": "epic",
@@ -56,4 +56,4 @@
     "enchant3": "",
     "summons": "TRUE"
   }
-]
+}
