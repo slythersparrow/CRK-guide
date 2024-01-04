@@ -28,9 +28,9 @@
          "Frost: enemies hit by Freezing Squall get -10.0% ATK SPD, Freeze DMG +140.0% (capped at 350%) for 20 sec",
          "",
          "",
+         "",
          ""
       ],
-      "FIELD26": "",
       "magicCandy": "FALSE",
       "crystalJam": "TRUE",
       "skillDescMC": "The power of the Crystal Jam changes Frost Queen Cookie's skill and makes her immune to ATK SPD changes. The Cookie calls forth a Blizzard, dealing damage and causing Frost. The final hit of the skill will bring a Shard of Eternal Frost upon the enemies, dealing DMG and Freezing them. Enemies immune to Freezing will become Chilled, and once they lose the immunity, they will become Frozen.",
@@ -99,9 +99,9 @@
          "",
          "",
          "",
+         "",
          ""
       ],
-      "FIELD26": "",
       "magicCandy": "TRUE",
       "crystalJam": "FALSE",
       "skillDescMC": "Shoot first if you don't wanna be shot! The Cookie aims both pistols at the enemy with the lowest Max HP (targets Cookies first) and shoots a round, dealing a great amount of damage several times. The Cookie's focus is so high, the Cookie will become resistant to interrupting effects. The Cookie's ATK SPD is increased greatly for a given period of time. Enemies hit by regular attacks and skill attacks will be burned.",
@@ -170,9 +170,9 @@
          "Summoned Wolf: 70.0% of ATK, 60.0% of DEF, 85.0% of HP, 100.0% of CRIT%",
          "Tamed Wolf: 189.0% of ATK, 138.0% of DEF, 230.0% of HP, 100.0% of CRIT%",
          "Claw Mark: 30.0 sec duration, activated upon 3 stacks",
-         "Claw Mark: removes buffs, ATK SPD -25.0% for 18.0 sec (stacks up to 2 times), 217.0% DMG"
+         "Claw Mark: removes buffs, ATK SPD -25.0% for 18.0 sec (stacks up to 2 times), 217.0% DMG",
+         ""
       ],
-      "FIELD26": "",
       "magicCandy": "FALSE",
       "crystalJam": "FALSE",
       "skillDescMC": "",
@@ -225,14 +225,14 @@
       "element": "water",
       "skillDesc": "Dives into the abyss and shifts into her true form, creating a whirlpool storm that deals periodic damage and drags in even enemies resistant to interruptions. Enemies, terrified of the Cookie's giant size, suffer from Terror of the Abyss. If Terror of the Abyss is dispelled, the target will be inflicted with true damage proportional to the target's Max HP. Being the ruler of the abyss herself, Black Pearl Cookie is resistant to all Fear effects. (Maximum amount of damage proportional to the target's HP is 300,000)",
       "skillStatBase": [
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         "",
-         ""
+         "Lightning DMG: 240.8%",
+         "Whirlpool: 10 hits over 2.0 sec",
+         "Single Hit DMG proportional to Max HP (Cookies): 6.3%",
+         "Single Hit DMG (Others): 13.8%",
+         "Lightning & Whirlpool DMG Resist Bypass: 40.0%",
+         "Healing received: -35.0% for 10.0 sec",
+         "Terror of the Abyss: ATK SPD -20.0%, MOV SPD -20.0%, ATK -14.5% for 15.0 sec; stacks up to x1",
+         "\"Terror of the Abyss Extra DMG\":\n[\"DMG proportional to Max HP (Cookies): 9.5%\",\n\"DMG (Others): 13.8%\"]"
       ],
       "skillStatMax": [
          "",
@@ -241,9 +241,9 @@
          "",
          "",
          "",
+         "",
          ""
       ],
-      "FIELD26": "",
       "magicCandy": "FALSE",
       "crystalJam": "TRUE",
       "skillDescMC": "Black Pearl Cookie's hatred is deeper than the deepest ocean! The sovereign of the Duskgloom Sea will decrease her targets' ATK with her skill and gain stacks of Hatred during the battle. At maximum stacks, her skill will be enhanced. For each ally Cookie defeated, Black Pearl Cookie will gain an increased number of Hatred stacks. The enhanced skill will now trap its targets in Water Cage, dealing periodic damage for the duration of the Water Cage. Additionally, Tornado will appear at the center of the Whirlpool, dealing extra damage.",
@@ -312,9 +312,9 @@
          "Sign of the Stars: prevents buffs for 20.0 sec, DMG received +35.0%, ATK -30.0%, Healing -40.0%",
          "Upon dispelling Sign of the Stars:",
          "Sleep for 1.5 sec; Area DMG equal to 1,005.0% of ATK",
-         "DMG Resist: +35.0% for 7.5 sec; stacks up to x1"
+         "DMG Resist: +35.0% for 7.5 sec; stacks up to x1",
+         "Meteor DMG: 301.5% of ATK"
       ],
-      "FIELD26": "Meteor DMG: 301.5% of ATK",
       "magicCandy": "FALSE",
       "crystalJam": "FALSE",
       "skillDescMC": "",

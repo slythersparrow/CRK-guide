@@ -6,16 +6,16 @@
     margin-top: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-} 
-
+}
     /* Style for search bar */
     #cookieSearch {
         width: 250px;
         font-size: 16px;
-        padding: 11px;
+        padding: 10px;
         border: 1px solid #ddd;
     }
 
+/* Styles for cookie profile divs */
 .cookie-profile {
     background-color: lavender;
     width: 750px;
@@ -23,4 +23,42 @@
     /* margin-top: 20px; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-} 
+}
+    .cookie-profile-main {
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: 60% auto;
+        gap: 0px;
+    }
+        .mainPic {
+            background-color: aquamarine;
+            border: solid red;
+        }
+            #cookiePic {
+                width: 100%;
+                margin: auto;
+            }
+        .info1 {
+            border: solid yellow;
+        }
+            .cookie-profile-header {
+                background-color: pink;
+                padding: 2px 10px;
+                margin: auto;
+                /* display: inline-block; */
+            }
+                #cookieName {
+                    color: white;
+                    -webkit-text-fill-color: white;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+                #rarityIcon {
+                    /* position: relative;
+                    top: 2px; */
+                    width: 100px;
+                    height: 20px;
+                }
+        

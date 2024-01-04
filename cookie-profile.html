@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
-    
-    <!-- STYLE STUFF -->
-    <!-- Get CSS style from file -->
-    <link href="styles/style.css" rel="stylesheet" />
-    <link href="styles/cookie-profile-style.css" rel="stylesheet" />
-    <!-- Importing fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Capriola&family=Fresca&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome icon kit -->
-    <script src="https://kit.fontawesome.com/fca53814f1.js" crossorigin="anonymous"></script>
 
-    <!-- SCRIPT STUFF -->
-    <!-- Get Javascript from file -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="scripts/main.js" defer></script>
-    <script src="scripts/cookie-profile.js" defer></script>
-  </head>
-  <body>
-    <!-- Navigation bar -->
-    <div class="navbar">
-      <a href="index.html">Home</a>
-      <a href="tier-lists.html">Tier lists</a>
-      <div class="dropdown">
-        <button class="dropbtnActive">Cookies
-            <i class="fa-solid fa-caret-down fa-sm"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="#">Filter table</a>
-          <a class="active" href="cookie-profile.html">Cookie profiles</a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>My test page</title>
+
+  <!-- STYLE STUFF -->
+  <!-- Get CSS style from file -->
+  <link href="styles/style.css" rel="stylesheet" />
+  <link href="styles/cookie-profile-style.css" rel="stylesheet" />
+
+  <!-- Font Awesome icon kit -->
+  <script src="https://kit.fontawesome.com/fca53814f1.js" crossorigin="anonymous"></script>
+
+  <!-- SCRIPT STUFF -->
+  <!-- Get Javascript from file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/cookie-profile.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="tier-lists.html">Tier lists</a>
+    <div class="dropdown">
+      <button class="dropbtnActive">Cookies
+        <i class="fa-solid fa-caret-down fa-sm"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Filter table</a>
+        <a class="active" href="cookie-profile.html">Cookie profiles</a>
+      </div>
+    </div>
+    <a href="#about">Enemies</a>
+  </div>
+
+  <!-- Search bar placeholder -->
+  <div class="cookie-search">
+    <input type="text" id="cookieSearch" onkeyup="cookieSearchFunction()" placeholder="Search">
+  </div>
+  <!-- Cookie profile -->
+  <div class="cookie-profile">
+    
+    <div class="cookie-profile-main">
+      <div class="mainPic">
+        <img id="cookiePic" src="images/cookies/Crunchy_chip_cookie.webp">
+      </div>
+      <div class="info1">
+        <div class="cookie-profile-header">
+          <p id="cookieName">Crunchy Chip Cookie</p>
+          <img id="rarityIcon" src="images/rarity/epic.webp">
         </div>
       </div>
-      <a href="#about">Enemies</a>
-    </div>
-    
-    <!-- Search bar placeholder -->
-    <div class="cookie-search">
-        <input type="text" id="cookieSearch" onkeyup="cookieSearchFunction()" placeholder="Search">
-    </div>
-    <!-- Cookie profile -->
-    <div class="cookie-profile">
-      <p>for visualizing div section1 on cookie profiles page</p>
-      <p id="cookieName"></p>
-      <p id="demo2"></p>
-      <p id="demo3"></p>
     </div>
 
-  </body>
+
+
+
+
+
+
+    <p>for visualizing div section1 on cookie profiles page. <b>check if bolding works</b></p>
+
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p><img src="images/rarity/rare.webp"></p>
+  </div>
+
+</body>
+
 </html>
