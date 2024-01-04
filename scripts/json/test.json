@@ -1,26 +1,14 @@
 {
-  "ancient": {
-    "folderPath": ".../images/rarity/ancient.webp"
-  },
-  "common": {
-    "folderPath": ".../images/rarity/common.webp"
-  },
-  "dragon": {
-    "folderPath": ".../images/rarity/dragon.webp"
-  },
-  "epic": {
-    "folderPath": ".../images/rarity/epic.webp"
-  },
-  "legendary": {
-    "folderPath": ".../images/rarity/legendary.webp"
-  },
-  "rare": {
-    "folderPath": ".../images/rarity/rare.webp"
-  },
-  "special": {
-    "folderPath": ".../images/rarity/special.webp"
-  },
-  "super epic": {
-    "folderPath": ".../images/rarity/super-epic.webp"
-  }
+  "rarities": [
+    {
+      "ancient": ".../images/rarity/ancient.webp",
+      "common": ".../images/rarity/common.webp",
+      "dragon": ".../images/rarity/dragon.webp",
+      "epic": ".../images/rarity/epic.webp",
+      "legendary": ".../images/rarity/legendary.webp",
+      "rare": ".../images/rarity/rare.webp",
+      "special": ".../images/rarity/special.webp",
+      "super epic": ".../images/rarity/super-epic.webp"
+    }
+  ]
 }
