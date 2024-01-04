@@ -1,59 +1,26 @@
 {
-  "cookie_frostq": {
-    "cookieID": "cookie0530",
-    "cookieName": "Frost Queen Cookie",
-    "rarity": "legendary",
-    "type": "magic",
-    "position": "middle",
-    "initialCooldown": 18,
-    "skillDesc": "Casts an ice squall, dealing damage, freezing all enemies, and applying the Frost debuff. Once Frozen, the targets' Cooldown will be paused and will receive an additional portion of damage when thawed. Targets resistant to Freezing receive only a portion of the DMG. If the Freeze debuff is dispelled, the targets will not receive the additional damage. Frost Queen Cookie herself is immune to freezing. While Frost Queen Cookie is using her skill, she will briefly become resistant to interrupting effects.",
-    "skillStatBase": "Single hit DMG: 67.8%, Freeze: 2.0 sec, DMG after Freeze: 271.2% of ATK; targets resistant to Freezing receive only 70.0% of this DMG, Frost: enemies hit by Freezing Squall get -10.0% ATK SPD, Freeze DMG +140.0% (capped at 350%) for 20 sec",
-    "skillStatMax": "Single hit DMG: 124.6%, Freeze: 2.0 sec, DMG after Freeze: 498.3% of ATK; targets resistant to Freezing receive only 70.0% of this DMG, Frost: enemies hit by Freezing Squall get -10.0% ATK SPD, Freeze DMG +140.0% (capped at 350%) for 20 sec",
-    "magicCandy": "FALSE",
-    "skillDescMC": "",
-    "skillStatBaseMC": "",
-    "skillStatMaxMC": "",
-    "enchant1": "",
-    "enchant2": "",
-    "enchant3": "",
-    "summons": "FALSE"
+  "ancient": {
+    "folderPath": ".../images/rarity/ancient.webp"
   },
-  "cookie_rye": {
-    "cookieID": "cookie0515",
-    "cookieName": "Rye Cookie",
-    "rarity": "epic",
-    "type": "ranged",
-    "position": "rear",
-    "initialCooldown": 15,
-    "skillDesc": "Shoot first if you don't wanna be shot! The Cookie aims both pistols at the enemy with the lowest Max HP (targets Cookies first) and shoots a round, dealing a great amount of damage several times. The Cookie's focus is so high, the Cookie will become resistant to interrupting effects. The Cookie's ATK SPD is increased greatly for the whole Showdown duration.",
-    "skillStatBase": "Single hit DMG: 72.0%, ATK SPD Up: 50.0% ATK SPD for 7.0 sec",
-    "skillStatMax": "Single hit DMG: 135.2%, ATK SPD Up: 50.0% ATK SPD for 7.0 sec",
-    "magicCandy": "TRUE",
-    "skillDescMC": "Shoot first if you don't wanna be shot! The Cookie aims both pistols at the enemy with the lowest Max HP (targets Cookies first) and shoots a round, dealing a great amount of damage several times. The Cookie's focus is so high, the Cookie will become resistant to interrupting effects. The Cookie's ATK SPD is increased greatly for a given period of time. Enemies hit by regular attacks and skill attacks will be burned.",
-    "skillStatBaseMC": "Twin Pistol Shots: +2 bonus shots, 12 shots total, Bonus Skill DMG: 10.0%, Regular attacks cause Burn with 50.0% chance, Regular Attack Burn DMG: 47.4% per 1.0 sec for 8.0 sec, Skill Attack Burn DMG: 61.6% per 1.0 sec for 16.0 sec",
-    "skillStatMaxMC": "Twin Pistol Shots: +2 bonus shots, 12 shots total, Bonus Skill DMG: 21.0%, Regular attacks cause Burn with 50.0% chance, Regular Attack Burn DMG: 79% per 1.0 sec for 8.0 sec, Skill Attack Burn DMG: 102.7% per 1.0 sec for 16.0 sec",
-    "enchant1": "All allies' ATK SPD: +20.0% for 7.0 sec",
-    "enchant2": "All allies' ATK SPD: +22.5% for 7.0 sec",
-    "enchant3": "All allies' ATK SPD: +25.0% for 7.0 sec",
-    "summons": "FALSE"
+  "common": {
+    "folderPath": ".../images/rarity/common.webp"
   },
-  "cookie_crunchy": {
-    "cookieID": "cookie0537",
-    "cookieName": "Crunchy Chip Cookie",
-    "rarity": "epic",
-    "type": "charge",
-    "position": "front",
-    "initialCooldown": 15,
-    "skillDesc": "Crunchy Chip Cookie's regular attacks leave the Claw Mark on the enemy with the highest ATK. Upon using the skill, the Cookie charges towards the enemies, slamming them and summoning his Cream Wolf. When Crunchy Chip Cookie is defeated, the Cream Wolf becomes enraged and continues fighting alone. In this state, the Cream Wolf becomes resistant to incapacitating effects. If Crunchy Chip Cookie is revived, he will hop back onto the Cream Wolf. Crunchy Chip Cookie and his wolves are less affected by Knockbacks and Flying. While Crunchy Chip Cookie is using his skill, he will briefly become resistant to interrupting effects.",
-    "skillStatBase": "Tamer: receives 25.0% of Summoned Creature buffs, Single hit DMG: 88.6% + 185.0% of CRIT%, Extra Single hit DMG: 100.0% of ATK, Summoned Wolf: 70.0% of ATK, 60.0% of DEF, 85.0% of HP, 100.0% of CRIT%, Tamed Wolf: 102.9% of ATK, 138.0% of DEF, 230.0% of HP, 100.0% of CRIT%, Claw Mark: 30.0 sec duration, activated upon 3 stacks, Claw Mark: removes buffs, ATK SPD -25.0% for 18.0 sec (stacks up to 2 times), 217.0% DMG",
-    "skillStatMax": "Tamer: receives 25.0% of Summoned Creature buffs, Single hit DMG: 162.8% + 185.0% of CRIT%, Extra Single hit DMG: 100.0% of ATK, Summoned Wolf: 70.0% of ATK, 60.0% of DEF, 85.0% of HP, 100.0% of CRIT%, Tamed Wolf: 189.0% of ATK, 138.0% of DEF, 230.0% of HP, 100.0% of CRIT%, Claw Mark: 30.0 sec duration, activated upon 3 stacks, Claw Mark: removes buffs, ATK SPD -25.0% for 18.0 sec (stacks up to 2 times), 217.0% DMG",
-    "magicCandy": "FALSE",
-    "skillDescMC": "",
-    "skillStatBaseMC": "",
-    "skillStatMaxMC": "",
-    "enchant1": "",
-    "enchant2": "",
-    "enchant3": "",
-    "summons": "TRUE"
+  "dragon": {
+    "folderPath": ".../images/rarity/dragon.webp"
+  },
+  "epic": {
+    "folderPath": ".../images/rarity/epic.webp"
+  },
+  "legendary": {
+    "folderPath": ".../images/rarity/legendary.webp"
+  },
+  "rare": {
+    "folderPath": ".../images/rarity/rare.webp"
+  },
+  "special": {
+    "folderPath": ".../images/rarity/special.webp"
+  },
+  "super epic": {
+    "folderPath": ".../images/rarity/super-epic.webp"
   }
 }
